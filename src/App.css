@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.Heading{
+  font-size:22px;
+  text-decoration:underline;
+  text-align:center;
+}
+.BUTTON{
+  width:100px;
+  height:36px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div input{
+  margin-right:20px;
+  height:36px;
+  padding:10px;
+  width:180px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.TODO{
+  margin-top:26px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.THARUN{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  padding:10px;
+}
+.Heading12{
+    font-family:"roboto";
+    font-size:20px;
+    width:180px;
+    font-family:"roboto";
+    margin-right:20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
